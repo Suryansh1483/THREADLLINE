@@ -1,0 +1,49 @@
+# Unity-generated state
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Bb]uild/
+/[Bb]uilds/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+/Artifacts/
+
+# Disposable experiments, including their folder metadata
+/Assets/_Temporary/
+/Assets/_Temporary.meta
+
+# IDE and local OS files
+/.vs/
+/.idea/
+/.vscode/
+*.csproj
+*.sln
+*.slnx
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+
+# Build products and private signing material
+*.apk
+*.aab
+*.unitypackage
+*.keystore
+*.jks
+.env
+.env.*
+!.env.example
+/crashlytics-build.properties
+
