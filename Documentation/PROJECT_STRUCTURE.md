@@ -9,7 +9,7 @@
 - `Documentation/`: repository-level standards and progress records.
 - `Assets/_Project/Documentation/`: Unity-imported technical, art, and design references. Do not duplicate repository documents here.
 
-Existing template assets remain in their original locations. Move them later using Unity's Project window or `AssetDatabase.MoveAsset`, preserving their `.meta` files and GUIDs. No assets were moved or deleted in Task 01.02.
+Task 01.02 preserved existing template assets. The remaining Phase 01 work moved rendering and input configuration into `_Project` through `AssetDatabase.MoveAsset`, preserving GUIDs. Superseded stock SampleScene, tutorial/readme assets, and unused pipeline source assets were removed after a baseline Git commit. Original project references remain recoverable from that baseline.
 
 ## Original asset folders
 
@@ -59,6 +59,6 @@ Commit original assets, required external assets with redistribution rights, eve
 
 Do not commit `Library/`, `Temp/`, `Obj/`, `Logs/`, `UserSettings/`, build outputs, IDE-generated project files, or local experimental content. Put downloads, generated reports, and scratch files outside `Assets` where possible.
 
-Git configuration is pending the dedicated version-control task. That task must ignore `/Assets/_Temporary/` and `/Assets/_Temporary.meta`, configure generated-file exclusions, and verify them before staging files. The folder currently has no content and is not automatically excluded from builds; do not use it for persistent assets. No ignore rules or Git LFS setup are claimed as implemented yet.
+The repository's `.gitignore` excludes `/Assets/_Temporary/`, `/Assets/_Temporary.meta`, generated Unity/IDE state, and build outputs. Ignore rules were checked before staging. `.gitattributes` keeps Unity YAML/metadata in ordinary Git and assigns common binary source formats to LFS. `_Temporary` has no content and is not automatically excluded from Unity builds; do not use it for persistent assets.
 
 Use Unity's Project window to move or rename imported assets so their metadata follows. For a new folder, select its parent and use **Assets > Create > Folder**. Never drag assets between folders using Windows Explorer while Unity is open.

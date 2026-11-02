@@ -40,7 +40,7 @@ Avoid scene-wide searches in per-frame callbacks, unnecessary allocations, and p
 - Editor-only utilities: `Assets/_Project/Code/Editor/`.
 - Tests: `Assets/_Project/Code/Tests/`.
 
-Do not create empty runtime assemblies or placeholder classes. Start with Unity's default runtime and Editor assemblies. When the first runtime module and automated tests are added, create focused runtime, Editor, and test `.asmdef` assets with explicit references. A folder named `Tests` alone does not exclude scripts from builds. Use an Editor-only test assembly with Test Assemblies enabled before adding NUnit code.
+Do not create empty runtime assemblies or placeholder classes. Runtime code remains in Unity's default assembly until the first real runtime module justifies a boundary. The implemented Android build-host utility uses the Editor-only `Threadline.Editor` assembly. Foundation tests use `Threadline.Foundation.EditorTests`, referencing that utility and the packages they inspect. A folder named `Tests` alone does not exclude scripts from builds; the test assembly explicitly includes only Editor and enables Test Assemblies.
 
 ## Git workflow
 
