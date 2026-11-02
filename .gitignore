@@ -46,4 +46,3 @@ Thumbs.db
 .env.*
 !.env.example
 /crashlytics-build.properties
-
