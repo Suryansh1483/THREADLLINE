@@ -1,0 +1,12 @@
+{
+    "name": "Threadline.Foundation.EditorTests",
+    "rootNamespace": "Threadline.Tests.Editor",
+    "references": [
+        "Threadline.Editor",
+        "Unity.InputSystem",
+        "Unity.RenderPipelines.Universal.Runtime"
+    ],
+    "includePlatforms": ["Editor"],
+    "autoReferenced": false,
+    "optionalUnityReferences": ["TestAssemblies"]
+}
