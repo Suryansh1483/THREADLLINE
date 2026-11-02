@@ -1,5 +1,7 @@
 # Technical architecture
 
+Phase 02 status: Task 02.01 inspection performed; user confirmation pending. See [the audit](PHASE02_AUDIT.md). The runtime architecture below remains planned until Task 02.02 is proposed and approved. Android work remains deferred by explicit user instruction.
+
 ## Implemented foundation
 
 Unity 6000.3.27f1 runs the URP project locally. Original assets live under `_Project`, external imports under `_External`, and shared setup documents at the repository root. Runtime, Editor, and test code have separate directories. No runtime architecture or gameplay managers are needed in Phase 01.

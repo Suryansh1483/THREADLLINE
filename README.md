@@ -6,7 +6,7 @@ THREADLINE is an internal production codename for a premium 3D sci-fi action/par
 
 ## Current scope
 
-Phase 01 establishes the Unity project foundation. The Windows foundation is implemented and build-verified. Android packaging and further Android setup are paused at the user's request; existing settings and diagnostic progress are preserved for later. Player movement, traversal, reality switching, procedural generation, menus, save systems, and online services are planned for later phases; none are implemented here.
+Phase 02 has started with the [foundation audit](Documentation/PHASE02_AUDIT.md). Its runtime architecture is not implemented yet; architecture approval precedes coding. The Phase 01 Windows foundation is implemented and build-verified. Android packaging and further Android setup remain paused at the user's request; existing settings and diagnostic progress are preserved for later. Player movement, traversal, reality switching, procedural generation, menus, save systems, and online services are not implemented here.
 
 ## Environment
 

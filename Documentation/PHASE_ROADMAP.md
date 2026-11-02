@@ -1,6 +1,6 @@
 # THREADLINE phase roadmap
 
-Only Phase 01 is implemented by the current work. Later entries are plans, not shipped systems.
+Phase 01's Windows foundation is implemented; Android validation remains deferred by the user. Phase 02 has started with Task 02.01, the [architecture audit](PHASE02_AUDIT.md); framework implementation awaits architecture approval. Later entries are plans, not shipped systems.
 
 1. **Project Foundation & Environment Setup** — Unity project, URP, settings, packages, folders, scenes, Git, and documentation.
 2. **Core Architecture & Game Framework** — Lifecycle, state management, scene loading, events, interfaces, configuration, save architecture, and logging.

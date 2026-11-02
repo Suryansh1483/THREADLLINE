@@ -1,5 +1,19 @@
 # THREADLINE development log
 
+## Phase 02 — Core Architecture & Game Framework
+
+### 2026-11-03 — Task 02.01 architecture audit
+
+- User authorized Phase 02 and explicitly retained the Android deferral. The new Phase 02 prompt requires task confirmation and architecture approval before runtime implementation.
+- Created `codex/phase02-framework` from clean baseline `d00efd6`.
+- Reopened THREADLINE with Unity 6000.3.27f1 through CLI 1.0.0-beta.15; reached ready in 67 seconds. CLI update check found the installed version current.
+- Live inspection found no compilation failure, all four scenes loaded with zero missing scripts, Bootstrap remained active, and PC High URP was selected on StandaloneWindows64.
+- Registered foundational packages match Phase 01. Twelve required folders exist; source metadata check found zero missing files.
+- Preserved both existing C# files and Editor-only assembly definitions. No runtime code, packages, scene changes, or Android work introduced.
+- Created `PHASE02_AUDIT.md`; updated README, architecture status, and roadmap. Raw audit evidence is ignored under `Artifacts/Phase02`.
+- Task 02.01 execution is complete; user confirmation pending. Next is Task 02.02 architecture proposal and approval. No framework module is claimed as implemented.
+- Android backlog remains: end-to-end Gradle fix verification, successful development APK, artifact inspection, and device validation. Resume only when the user asks.
+
 ## Phase 01 — Project Foundation & Environment Setup
 
 ### 2026-11-02 — Task 01.01 confirmed
